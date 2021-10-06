@@ -9,5 +9,9 @@ I have extracted a handful of helper CSS classes and decided to share.
 
 Note: master.css file contains all classes in one place.
 
+    https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.min.css
+  _
+  
+
     https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.css
 
