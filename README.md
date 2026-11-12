@@ -1,34 +1,37 @@
-A lightweight collection of CSS utility classes based on [Tailwind CSS](https://tailwindcss.com)'s color palette.
+# Tailwind Colors
 
-This project provides a simple way to use Tailwind-inspired colors in your projects without importing the entire framework.
+A lightweight, dependency-free collection of CSS color utilities inspired by the [Tailwind CSS](https://tailwindcss.com/) color palette. Use Tailwind-style text, background, and border colors without installing the full framework.
 
 ## Usage
 
-Include one of the following stylesheets in your HTML:
-
-**Minified (recommended)**
+Add the complete minified stylesheet to your HTML:
 
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/stylesheets/master.min.css"
-/>
+  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors@main/stylesheets/master.min.css"
+>
 ```
 
-**Unminified**
+Then apply the utility classes to your elements:
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/stylesheets/master.css"
-/>
+<p class="text-indigo-700">Indigo text</p>
+<div class="bg-blue-100 text-blue-900">Blue background</div>
 ```
 
-## Files
+Classes follow this pattern:
 
-- `master.css` — All utility classes in a single stylesheet.
-- `master.min.css` — Minified version for production use.
+```text
+{text|bg|border}-{color}-{shade}
+```
 
-## License
+Available colors are `blue`, `gray`, `green`, `indigo`, `pink`, `purple`, `red`, and `yellow`. Each color includes shades from `50` through `900`.
 
-See [LICENSE](LICENSE) for details.
+## Stylesheets
+
+- `stylesheets/master.min.css` — all utilities, minified for production
+- `stylesheets/master.css` — all utilities in readable form
+- `stylesheets/{color}.css` — utilities for a single color palette
+
+To load only one palette, replace `master.min.css` in the CDN URL with a color stylesheet such as `blue.css`.
