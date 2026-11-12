@@ -11,7 +11,7 @@ Include one of the following stylesheets in your HTML:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.min.css"
+  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/stylesheets/master.min.css"
 />
 ```
 
@@ -20,7 +20,7 @@ Include one of the following stylesheets in your HTML:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.css"
+  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/stylesheets/master.css"
 />
 ```
 
