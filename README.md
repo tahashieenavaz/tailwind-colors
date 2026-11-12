@@ -1,17 +1,34 @@
+A lightweight collection of CSS utility classes based on [Tailwind CSS](https://tailwindcss.com)'s color palette.
 
-# Tailwind.css Colors Extracted
+This project provides a simple way to use Tailwind-inspired colors in your projects without importing the entire framework.
 
-Hi there 👋
+## Usage
 
-If you have ever wondered, it would be nice to include [Tailwind](https://tailwindcss.com)'s colors in your project **without** loading too much code, as I often do, here it goes.
+Include one of the following stylesheets in your HTML:
 
-I have extracted a handful of helper CSS classes and decided to share.
+**Minified (recommended)**
 
-Note: master.css file contains all classes in one place.
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.min.css"
+/>
+```
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.min.css" />
-  _
-  
+**Unminified**
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.css" />
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/tahashieenavaz/tailwind-colors/master.css"
+/>
+```
 
+## Files
+
+- `master.css` — All utility classes in a single stylesheet.
+- `master.min.css` — Minified version for production use.
+
+## License
+
+See [LICENSE](LICENSE) for details.
