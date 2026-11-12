@@ -1,5 +1,3 @@
-# Tailwind Colors
-
 A lightweight, dependency-free collection of CSS color utilities based on the classic [Tailwind CSS](https://tailwindcss.com/) palette. Use Tailwind-style colors without installing the full framework.
 
 ## Usage
